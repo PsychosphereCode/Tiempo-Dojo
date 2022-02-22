@@ -10,7 +10,7 @@ function farenheitToCelsius(tempFarenheit) {
 
 function onChangeOpt(x) {
     var actualValue = x.selectedIndex;
-    //console.log(actualValue)
+    console.log(actualValue)
 
     for (var i = 1; i <= n_cajas; i++) {
         var maxTempId = "max_caja" + i;
