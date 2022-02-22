@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clima Dojo</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;600&family=Roboto+Mono:wght@500&family=Roboto+Serif:wght@200&family=Roboto:ital@1&display=swap" rel="stylesheet">
+</head>
+<body>
+<header class="headergeneral">
+    <div class="headernav">
+        <h1> Dojo Weather</h1>
+        <div class="nav-bar">
+            <ul class="nav-links">
+                <li><a href="#" onclick="alerta(this)"> Burkan</a></li>
+                <li><a href="#" onclick="alerta(this)" >Chicago</a></li>
+                <li><a href="#" onclick="alerta(this)" >Dalas</a></li>
+            </ul>
+        </div>
+    </div>
+</header>
+<div class="containergeneral">
+    <div class="headerbody">
+        <div class="ladoizqheader"> 
+            <h2> San Jose</h2> 
+        </div>
+        <div class="ladoderecho">
+            <form>
+                <label>Show temperature in</label>
+                <select onchange="onChangeOpt(this)" name="escala">
+                    <option value="0">°C</option>
+                    <option value="1">°F</option>
+                </select>
+            </form>
+        </div>
+    </div>
+    <div class="rowbody">
+        <div class="caja1" id="caja1">
+            <h2>Hoy</h2>
+            <img src="img/some_rain.png " alt="" class="imgclima">
+            <p> parcialmente nublado</p>
+            <p class="temperaturas">
+                <span class="tempMax" id="max_caja1">24</span>
+                <span class="tempMin" id="min_caja1">18</span>
+            </p>
+        </div>
+        <div class="caja2" id="caja2">
+            <h2>Mañana</h2>
+            <img  src="img/some_sun.png" alt="" class="imgclima">
+            <p> parcialmente nublado</p>
+            <p class="temperaturas">
+                <span class="tempMax" id="max_caja2" >27</span>
+                <span class="tempMin" id="min_caja2">19</span>
+            </p>
+        </div>
+        <div class="caja3" id="caja3">
+            <h2>Jueves</h2>
+            <img src="img/some_clouds.png" alt="" class="imgclima">
+            <p> parcialmente nublado</p>
+            <p class="temperaturas">
+                <span class="tempMax" id="max_caja3" >21</span>
+                <span class="tempMin" id="min_caja3">16</span>
+            </p>
+        </div>
+        <div class="caja4" id="caja4">
+            <h2>Viernes</h2>
+            <img src="img/some_sun.png" alt="" class="imgclima">
+            <p> parcialmente nublado</p>
+            <p class="temperaturas">
+                <span class="tempMax" id="max_caja4" >26</span>
+                <span class="tempMin" id="min_caja4">21</span>
+            </p>
+        </div>
+    </div>
+    <footer>
+        <div class="cookie">
+            <img src="img/cookie.png" alt="cookie">
+            <div class="text">
+                <h3>Stop! Cookie time.</h3>
+                <p>We use cookies (sadly not the edible ones) to personalize
+                content and ads, to provide social media features and to analyse our trafic.
+                <a href="#" target="_blank">Read More...</a></p>
+            </div>
+            <button onclick="aceptar()">Aceptar</button>
+        </div>
+    </footer>
+</div>
+<script src="script.js"></script>
+</body>
+</html>

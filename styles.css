@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.headergeneral{
+    padding: 20px;
+    background-color: cornflowerblue;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    width: 1200px;
+    margin: 0 auto;
+    
+}
+.headernav{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.headernav h1{
+    flex:1;
+}
+
+.containergeneral{
+    margin: 0 auto;
+    width: 1200px;
+}
+.nav-bar{
+    flex: 1;
+    justify-content: space-between;
+    margin-left: 20px;
+}
+.nav-links{
+    font-size: large;
+    margin-right: 0px;
+    
+
+}
+.nav-links li{
+    flex:1;
+}
+
+.nav-bar ul{
+    list-style: none;
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+}
+.ladoderecho form label {
+    text-align: center;
+}
+
+
+.rowbody {
+    margin: 30px auto;
+    background-color:white;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.caja1, .caja2, .caja3{
+    padding: 20px;
+    height: 300px;
+    background-color: whitesmoke;
+    flex:1;
+    margin-right: 20px; 
+    text-align: center;
+
+}
+.caja4{
+    margin-right: 0px;
+    flex:1;
+    padding: 20px;
+    height: 300px;
+    background-color: whitesmoke;
+    text-align: center;
+}
+.imgclima{
+    width: 100px;
+    border-radius: 50%;
+    margin:20px 0;
+}
+
+.headerbody{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid black;
+    padding: 20px 0;
+}
+.temperaturas{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+}
+.tempMax{
+    color:red;
+}  
+.tempMin{
+    color: blue;
+}
+footer{
+    margin: 0 auto;
+    width: 1200px;
+    position: fixed;
+    bottom: 0;
+
+}
+
+.cookie{
+    margin: 0 auto;
+    width: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: 1px solid black;
+    background-color: whitesmoke;
+    height: 100px;
+}
+
+.cookie button {
+    padding: 5px 10px;
+    background-color: cornflowerblue;
+    cursor:pointer;
+    box-shadow: 6px 8px 7px 0px rgba(47, 49, 50, 0.74);
+    margin-right: 10px;
+}
+.cookie img{
+    margin: 20px;
+}
+.cookie button:active{
+    background-color: aquamarine;
+}
+
+.temperaturas span{
+    font-size: x-large;
+}
+select {
+    height: 30px;
+    width: 80px;
+    margin-left: 10px;
+}
