@@ -49,11 +49,6 @@ body{
     display: flex;
     
 }
-.ladoderecho form label {
-    text-align: center;
-}
-
-
 .rowbody {
     margin: 30px auto;
     background-color:white;
