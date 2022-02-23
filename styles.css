@@ -29,8 +29,8 @@ body{
     width: 1200px;
 }
 .nav-bar{
-    flex: 1;
     margin-left: 20px;
+    display: flex;
     
 
 }
@@ -126,7 +126,8 @@ footer{
 
 }
 .cookie .cookieimg{
-    margin-left: 10px;
+    margin:0 10px;
+
 }
 .cookie button:active{
     background-color: aquamarine;
@@ -135,6 +136,7 @@ footer{
 .temperaturas span{
     font-size: x-large;
 }
+
 select {
     height: 30px;
     width: 80px;
